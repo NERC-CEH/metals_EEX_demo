@@ -60,15 +60,15 @@ No heavy computation is included in this notebook.
 
 Heavy metals are natural constituents of the Earth's crust. They are stable and cannot be degraded or destroyed, and therefore they tend to accumulate in soils and sediments. However, human activities have drastically altered the biochemical and geochemical cycles and balance of some heavy metals. The principal man-made sources of heavy metals are industrial point sources, e.g. mines, foundries and smelters, and diffuse sources such as combustion by-products, traffic, etc. Relatively volatile heavy metals and those that become attached to air-borne particles (particulates) can be widely dispersed throughout the atmosphere, often being deposited thousands of miles from the site of initial release. In general, the smaller and lighter a particle is, the longer it will stay in the air. Larger particles (greater than 10 micrometers (µm) in diameter) tend to settle to the ground by gravity in a matter of hours whereas the smallest particles (less than 1µm in diameter ) can stay in the atmosphere for weeks and are mostly removed by precipitation.
 
-## Casual loop diagram
+## Causal loop diagram
 
 Metals pollution were typically studied in compartments (e.g. air, soil, biota, water). Metals pollution is a complex issue with impacts that span across different environmental compartments and influence ecosystems and human health through the food chain. Systems thinking helps to map these connections and understand that problems like industrial runoff, waste disposal, and agricultural use are not isolated issues but are interconnected parts of a larger system.
 
 By considering the whole system holistically, policymakers and scientists can better identify key leverage points for more effective, integrated strategies that avoid unintended consequences.
 
-To adopt a systems thinking view, a casual loop diagram is often constructed to describe all the potential linkages between environmental pressures and responses. Here is an example:
+To adopt a systems thinking view, a causal loop diagram is often constructed to describe all the potential linkages between environmental pressures and responses. Here is an example:
 
-<!-- ![Casual loop diagram for metals pollution.](img/Picture1.jpg){.lightbox} -->
+<!-- ![Causal loop diagram for metals pollution.](img/Picture1.jpg){.lightbox} -->
 
 <!-- https://ncase.me/loopy/v1.1/?embed=1&data=[[[4,741,329,0.5,%22Rain%22,4],[5,1067,153,0.5,%22soil%22,3],[6,505,116,0.5,%22Air%22,4],[7,933,768,0.5,%22Rivers%22,4],[8,1126,751,0.5,%22Lakes%22,4],[9,1339,726,0.5,%22Sea%22,4],[10,1403,191,0,%22terrestrial%22,1],[12,395,768,0,%22Marine%22,1],[13,483,369,0,%22Avian%22,1],[14,17,436,0,%22Freshwater%22,1],[15,1604,319,0,%22Humans%22,1],[16,788,-63,1,%22Mining%22,0],[17,1416,-75,0.5,%22Spills%252Fleaks%22,0],[18,-17,-4,0.83,%22Combustion%22,0],[19,501,-109,0.66,%22Industry%22,0],[20,1190,-114,0.83,%22Waste%2520disposal%22,0],[21,200,9,0.66,%22Transport%22,0]],[[6,5,56,1,0],[4,5,25,1,0],[6,4,18,1,0],[4,7,-13,1,0],[7,8,-3,1,0],[8,9,58,1,0],[5,7,18,1,0],[5,8,18,1,0],[5,9,46,1,0],[5,10,78,1,0],[6,13,-47,1,0],[4,13,36,1,0],[5,13,841,1,0],[9,12,43,1,0],[7,14,21,1,0],[8,14,36,1,0],[12,13,147,1,0],[14,13,33,1,0],[13,15,-507,1,0],[14,15,-184,1,0],[12,15,-25,1,0],[10,15,78,1,0],[16,5,-63,1,0],[17,5,25,1,0],[18,6,-41,1,0],[21,6,14,1,0],[19,6,23,1,0],[19,5,-46,1,0],[16,6,-71,1,0],[20,5,-21,1,0],[20,6,-75,1,0],[18,5,158,1,0],[21,5,242,1,0],[10,13,122,1,0],[18,4,-87,1,0],[21,7,-215,1,0],[17,7,41,1,0],[16,7,34,1,0]],[[-147,733,%22Metal%2520bioaccumulation%22]],21%5D -->
 

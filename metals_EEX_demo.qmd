@@ -21,9 +21,9 @@ toc-expand: 2
 ::: {.callout-tip}
 ## Challenge
 
-While polltants know no boundaries, pollution analysis are often limited to a single compartment. By integrating data across compartments
+While polltants know no boundaries, pollution analysis are often limited to a single compartment. By integrating data across compartments, we can better understand their effects and responses holistically.
 
-However, data from many different sources are difficult to discover and integrate. The purpose of this notebook and the UK Environmental Exposure (UK-EEX) Hub is to make it easier to discover, process, analyse, and visualise the wealth of data regarding environmental pressures and responses, particulary related to chemical substances.
+However, data from many different sources are difficult to discover and integrate. The purpose of this notebook and the UK Environmental Exposure (UK-EEX) Hub is to make it easier to discover, process, analyse, and visualise the wealth of data regarding environmental pressures and responses, particularly related to chemical substances.
 :::
 
 ::: {.callout-tip}

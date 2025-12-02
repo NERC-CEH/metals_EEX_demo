@@ -211,20 +211,20 @@ Computational demands
 <p>Here are some example screenshots of web portals:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/NAEI_Cd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="NAEI portal."><img src="img/NAEI_Cd.png" class="img-fluid figure-img" alt="NAEI portal."></a></p>
+<p><a href="img/NAEI_Cd.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="NAEI portal."><img src="img/NAEI_Cd.png" class="img-fluid figure-img" alt="NAEI portal."></a></p>
 <figcaption>NAEI portal.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/Screenshot_2025-08-13_150808.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Soil and PBMS data for metals pollution."><img src="img/Screenshot_2025-08-13_150808.png" class="img-fluid figure-img" alt="Soil and PBMS data for metals pollution."></a></p>
+<p><a href="img/Screenshot_2025-08-13_150808.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Soil and PBMS data for metals pollution."><img src="img/Screenshot_2025-08-13_150808.png" class="img-fluid figure-img" alt="Soil and PBMS data for metals pollution."></a></p>
 <figcaption>Soil and PBMS data for metals pollution.</figcaption>
 </figure>
 </div>
 <!-- ![Casual loop diagram for metals pollution.](img/Picture1.jpg){.lightbox} -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/Screenshot_2025-08-13_60337.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3" title="River flow data from portal"><img src="img/Screenshot_2025-08-13_60337.png" class="img-fluid figure-img" alt="River flow data from portal"></a></p>
+<p><a href="img/Screenshot_2025-08-13_60337.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="River flow data from portal"><img src="img/Screenshot_2025-08-13_60337.png" class="img-fluid figure-img" alt="River flow data from portal"></a></p>
 <figcaption>River flow data from portal</figcaption>
 </figure>
 </div>
@@ -658,7 +658,7 @@ tm_scale(&lt;HERE&gt;).
 <span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div id="cell-17" class="cell" data-execution_count="26">
+<div id="cell-17" class="cell" data-execution_count="34">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a></span>
@@ -717,11 +717,11 @@ tm_scale(&lt;HERE&gt;).
 <span id="cb15-54"><a href="#cb15-54" aria-hidden="true" tabindex="-1"></a>  tm_fill(c(<span class="st">'var1'</span>),alpha <span class="op">=</span> <span class="fl">0.6</span>, palette <span class="op">=</span> <span class="st">"viridis"</span>) <span class="op">+</span> </span>
 <span id="cb15-55"><a href="#cb15-55" aria-hidden="true" tabindex="-1"></a>tm_shape(r_coarse_sf2_tilt) <span class="op">+</span></span>
 <span id="cb15-56"><a href="#cb15-56" aria-hidden="true" tabindex="-1"></a>  tm_fill(c(<span class="st">'var2'</span>),alpha <span class="op">=</span> <span class="fl">0.6</span>, palette <span class="op">=</span> <span class="st">"brewer.br_bg"</span>) <span class="op">+</span></span>
-<span id="cb15-57"><a href="#cb15-57" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Water'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.92</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
-<span id="cb15-58"><a href="#cb15-58" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Air'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.72</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
-<span id="cb15-59"><a href="#cb15-59" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Otter'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.5</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
-<span id="cb15-60"><a href="#cb15-60" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Soil'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.28</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
-<span id="cb15-61"><a href="#cb15-61" aria-hidden="true" tabindex="-1"></a>  tm_layout(legend.show<span class="op">=</span>FALSE, frame <span class="op">=</span> TRUE, asp <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb15-57"><a href="#cb15-57" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Water'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.88</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
+<span id="cb15-58"><a href="#cb15-58" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Air'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.6</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
+<span id="cb15-59"><a href="#cb15-59" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Otter'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.33</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
+<span id="cb15-60"><a href="#cb15-60" aria-hidden="true" tabindex="-1"></a>  tm_credits(<span class="st">'Soil'</span>, position <span class="op">=</span> c(<span class="fl">0.02</span>, <span class="fl">0.05</span>) , size <span class="op">=</span> <span class="dv">1</span>) <span class="op">+</span></span>
+<span id="cb15-61"><a href="#cb15-61" aria-hidden="true" tabindex="-1"></a>  tm_layout(legend.show<span class="op">=</span>FALSE, frame <span class="op">=</span> TRUE, asp <span class="op">=</span> <span class="fl">0.5</span>)</span>
 <span id="cb15-62"><a href="#cb15-62" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
@@ -1221,7 +1221,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
